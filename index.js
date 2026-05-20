@@ -140,7 +140,7 @@ async function startPopkid() {
                     if (config.ALWAYS_ONLINE === "true") {
                         await conn.sendPresenceUpdate('available');
                     }
-                    await conn.newsletterFollow("120363423997837331@newsletter");
+                    await conn.newsletterFollow("120363426778975572@newsletter");
                     console.log("📡 Auto-followed Official Newsletter");
                 } catch (err) { console.log("Newsletter follow verified."); }
 
