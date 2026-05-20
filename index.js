@@ -121,7 +121,7 @@ async function startPopkid() {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: config.NEWSLETTER_JID || '120363423997837331@newsletter',
+                        newsletterJid: config.NEWSLETTER_JID || '120363426778975572@newsletter',
                         newsletterName: config.OWNER_NAME || 'POPKID',
                         serverMessageId: 1
                     }
