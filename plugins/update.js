@@ -13,8 +13,8 @@ module.exports = {
     async execute(conn, m, { from, isOwner }) {
         try {
             // --- CONFIGURATION ---
-            const repoOwner = "popkidke"; // Your GitHub Username
-            const repoName = "GEMINI";           // Your Repo Name
+            const repoOwner = "sessionmanager1"; // Your GitHub Username
+            const repoName = "POPKIDMD";           // Your Repo Name
             const branch = "main";
             
             const apiCommitUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/commits/${branch}`;
